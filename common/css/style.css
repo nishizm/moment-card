@@ -1,0 +1,2098 @@
+@charset "UTF-8";
+/* ============================================================================
+ * リセットCSS
+ * ========================================================================= */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.15;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+/* ============================================================================
+ * 要素
+ * ========================================================================= */
+*,
+*::before,
+*::after {
+  -webkit-appearance: none !important;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  color: #333333;
+  font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", sans-serif;
+  font-size: 1.7rem;
+  line-height: 1.529;
+  min-width: 320px;
+  vertical-align: baseline;
+}
+
+@media screen and (max-width: 67.5em) {
+  body {
+    font-size: 1.6rem;
+  }
+}
+
+em,
+strong,
+dfn {
+  font-style: normal;
+  font-weight: bold;
+}
+
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+figure,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* ============================================================================
+* 1.ヘッダエリア
+* ========================================================================= */
+/* ----------------------------------------------------------------------------
+* 1-1.ロゴ周り
+* ------------------------------------------------------------------------- */
+/* header要素 */
+#str-header {
+  background: #ffffff;
+  width: 100%;
+}
+
+@media screen and (max-width: 67.5em) {
+  #str-header::after {
+    background: #33419e;
+    content: "";
+    display: block;
+    height: 6px;
+    height: 4px;
+    margin-top: 24px;
+  }
+}
+
+.str-header-top {
+  padding: 8px 0 0 0;
+}
+
+@media screen and (max-width: 30em) {
+  .str-header-top {
+    padding: 16px 0 0 0;
+  }
+}
+
+.str-header-top > .inner {
+  -ms-flex-align: end;
+  -ms-flex-pack: justify;
+  -webkit-box-align: end;
+  -webkit-box-pack: justify;
+  align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1112px;
+  padding: 0 16px;
+  position: relative;
+}
+
+@media screen and (max-width: 67.5em) {
+  .str-header-top > .inner {
+    padding: 0 80px;
+  }
+}
+
+.header-in-01 {
+  margin-right: 24px;
+  padding: 0;
+}
+
+@media screen and (max-width: 67.5em) {
+  .header-in-01 {
+    margin: 0 auto;
+  }
+}
+
+/* ロゴ自体の調整 */
+.header-logo .logo {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: block;
+  max-height: 60px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 30em) {
+  .header-logo .logo {
+    height: 38px;
+  }
+}
+
+/* タブレット・スマホサイズで隠す */
+@media screen and (max-width: 67.5em) {
+  .header-in-02 {
+    display: none;
+  }
+}
+
+/* ----------------------------------------------------------------------------
+* 1-2.ヘッダー・サブナビゲーション
+* ------------------------------------------------------------------------- */
+.header-utility-links {
+  font-size: 1.4rem;
+  margin-top: 3px;
+  text-align: right;
+}
+
+.header-utility-links > ul {
+  -ms-flex-flow: wrap;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  line-height: 1;
+}
+
+.header-utility-links > ul > li:not(:last-child) {
+  border-right: 1px solid #666666;
+  margin-right: 22px;
+  padding-right: 22px;
+}
+
+.header-utility-links > ul > li a {
+  color: #666666;
+  position: relative;
+  text-decoration: none;
+}
+
+.header-utility-links > ul > li a:visited, .header-utility-links > ul > li a:hover, .header-utility-links > ul > li a:active {
+  text-decoration: underline;
+}
+
+/* ----------------------------------------------------------------------------
+* 1-3.検索ボックス
+* ------------------------------------------------------------------------- */
+.header-search {
+  margin-top: 22px;
+  text-align: right;
+}
+
+.header-search > p {
+  background: #acacac;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 48px;
+}
+
+.header-search input:not([type]),
+.header-search [type="text"],
+.header-search [type="search"] {
+  background: #f3f3f3;
+  border: none;
+  border-radius: 0;
+  outline: 0;
+  padding: 8px 8px 8px 16px;
+  width: 16em;
+}
+
+.header-search input:not([type]):focus,
+.header-search [type="text"]:focus,
+.header-search [type="search"]:focus {
+  background-color: #f3f3f3;
+}
+
+.header-search button:not([type]),
+.header-search [type="submit"] {
+  background: #f3f3f3;
+  border: none;
+  color: #33419e;
+  cursor: pointer;
+  font-size: 2.2rem;
+  padding: 8px 16px;
+}
+
+@media screen and (max-width: 67.5em) {
+  #str-main {
+    margin-top: 0 !important;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  #str-main {
+    margin-top: 0 !important;
+  }
+}
+
+/* ----------------------------------------------------------------------------
+* 1-4.グローバルナビゲーション
+* ------------------------------------------------------------------------- */
+.str-header-bottom {
+  background: #f3f3f3;
+  margin-top: 22px;
+}
+
+@media screen and (max-width: 67.5em) {
+  .str-header-bottom {
+    display: none;
+  }
+}
+
+.str-header-bottom::before {
+  background: #33419e;
+  content: "";
+  display: block;
+  height: 3px;
+}
+
+.str-header-bottom > .inner {
+  margin: auto;
+  width: 1080px;
+}
+
+/* グローバルナビのボタン要素 */
+.nav-global .list-nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.nav-global .list-nav-links li:hover {
+  background: #33419e;
+  color: #fff;
+}
+
+.nav-global .list-nav-links li:hover .megamenu-area::after {
+  border-right: 2px solid #ffffff;
+  border-top: 2px solid #ffffff;
+}
+
+.nav-global .list-nav-links > li {
+  -ms-flex: auto;
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex: auto;
+}
+
+.nav-global .list-nav-links > li:hover .megamenu {
+  max-height: 9999px;
+  opacity: 0.9;
+  padding: 16px 0;
+}
+
+.nav-global .list-nav-links > li a {
+  color: inherit;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 18px 8px 17px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.nav-global .list-nav-links > li a .megamenu-area {
+  padding-right: 16px;
+}
+
+.nav-global .list-nav-links > li a .megamenu-area::after {
+  -webkit-transform: translateY(-50%) rotate(135deg);
+  border-right: 2px solid #33419e;
+  border-top: 2px solid #33419e;
+  content: "";
+  height: 8px;
+  margin-left: 16px;
+  margin-top: 9px;
+  position: absolute;
+  transform: translateY(-50%) rotate(135deg);
+  width: 8px;
+}
+
+/* メガメニュー要素 */
+.megamenu {
+  -webkit-transition: all 0.3s ease-in;
+  background: #33419e;
+  left: 0;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 177px;
+  transition: all 0.3s ease-in;
+  width: 100%;
+  z-index: 999;
+}
+
+.megamenu > .inner {
+  -ms-flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 1080px;
+}
+
+.megamenu > .inner li {
+  padding: 0;
+  width: calc((100% / 4));
+}
+
+/* ドロワーメニュー+アコーディオンメニュー */
+.header-in-drawer {
+  display: none;
+}
+
+@media screen and (max-width: 67.5em) {
+  .header-in-drawer {
+    display: block;
+  }
+}
+
+.header-login {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.header-login img {
+  max-width: 50%;
+}
+
+.nav-unshown {
+  display: none;
+}
+
+#nav-open {
+  left: 16px;
+  margin-top: -8px;
+  position: absolute;
+  top: 50%;
+}
+
+#nav-open span,
+#nav-open span:before,
+#nav-open span:after {
+  background: #33419e;
+  border-radius: 4px;
+  content: "";
+  cursor: pointer;
+  display: block;
+  height: 4px;
+  position: absolute;
+  width: 26px;
+}
+
+#nav-open span:before {
+  bottom: -8px;
+}
+
+#nav-open span:after {
+  bottom: -16px;
+}
+
+#nav-close {
+  -webkit-transition: 0.3s ease-in-out;
+  background: black;
+  display: none;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  transition: 0.3s ease-in-out;
+  width: 100%;
+  z-index: 99;
+}
+
+#nav-content {
+  -webkit-transform: translateX(-105%);
+  -webkit-transition: 0.3s ease-in-out;
+  background: #ffffff;
+  height: 100%;
+  left: 0;
+  max-width: 330px;
+  overflow: auto;
+  padding-bottom: 64px;
+  position: fixed;
+  top: 0;
+  transform: translateX(-105%);
+  transition: 0.3s ease-in-out;
+  width: 90%;
+  z-index: 9999;
+}
+
+#nav-content .nav-content-header {
+  background: #33419e;
+  height: 56px;
+  position: relative;
+}
+
+#nav-content .nav-content-header .close {
+  padding: 0 15px 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 999999;
+}
+
+#nav-content .nav-content-header .close span {
+  -webkit-transform: rotate(45deg);
+  background: #ffffff;
+  display: inline-block;
+  height: 30px;
+  margin: 13px 8px 0 0;
+  padding: 0;
+  position: relative;
+  transform: rotate(45deg);
+  width: 4px;
+}
+
+#nav-content .nav-content-header .close span:before {
+  background: #ffffff;
+  content: "";
+  display: block;
+  height: 4px;
+  left: -14px;
+  margin-top: -2px;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+}
+
+#nav-input:checked ~ #nav-close {
+  display: block;
+  opacity: 0.5;
+}
+
+#nav-input:checked ~ #nav-content {
+  -webkit-box-shadow: 6px 0 25px rgba(0, 0, 0, 0.15);
+  -webkit-transform: translateX(0%);
+  box-shadow: 6px 0 25px rgba(0, 0, 0, 0.15);
+  transform: translateX(0%);
+}
+
+.nav-search {
+  background: #ffffff;
+  padding: 16px;
+  text-align: center;
+}
+
+.nav-search > p {
+  background: #acacac;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 48px;
+  width: 100%;
+}
+
+.nav-search input:not([type]),
+.nav-search [type="text"],
+.nav-search [type="search"] {
+  background: #f3f3f3;
+  border: none;
+  border-radius: 0;
+  outline: 0;
+  padding: 10px 8px 8px 16px;
+  width: 85%;
+}
+
+.nav-search input:not([type]):focus,
+.nav-search [type="text"]:focus,
+.nav-search [type="search"]:focus {
+  background-color: #f3f3f3;
+}
+
+.nav-search button:not([type]),
+.nav-search [type="submit"] {
+  background: #f3f3f3;
+  border: none;
+  color: #33419e;
+  cursor: pointer;
+  font-size: 2.2rem;
+  padding: 8px 0;
+  width: 15%;
+}
+
+.nav-drawer .list-nav-links {
+  -webkit-transition: all 0.4s linear;
+  background: #ffffff;
+  transition: all 0.4s linear;
+}
+
+.nav-drawer .list-nav-links > li {
+  border-top: 1px solid #33419e;
+}
+
+.nav-drawer .list-nav-links > li > .submenu {
+  background: #fff;
+  display: none;
+}
+
+.nav-drawer .list-nav-links > li > .submenu li {
+  background: #f3f3f3;
+  border-top: 1px solid #33419e;
+}
+
+.nav-drawer .list-nav-links > li > .submenu li a {
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 14px 14px 12px 24px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.nav-drawer .list-nav-links > li > .submenu li a::before {
+  display: none;
+}
+
+.nav-drawer .list-nav-links > li:last-child {
+  border-bottom: 1px solid #33419e;
+}
+
+.nav-drawer .list-nav-links a.js-menu::before {
+  -webkit-transform: translateY(80%) rotate(135deg);
+  border-right: 2px solid #33419e;
+  border-top: 2px solid #33419e;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  position: absolute;
+  right: 16px;
+  transform: translateY(80%) rotate(135deg);
+  width: 8px;
+}
+
+.nav-drawer .list-nav-links a.js-menu.on::before {
+  -webkit-transform: translateY(80%) rotate(315deg);
+  transform: translateY(80%) rotate(315deg);
+}
+
+.nav-drawer .list-nav-links a {
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 16px 16px 14px 16px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.nav-drawer .list-nav-links a::before {
+  -webkit-transform: translateY(80%) rotate(45deg);
+  border-right: 2px solid #33419e;
+  border-top: 2px solid #33419e;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  position: absolute;
+  right: 16px;
+  transform: translateY(80%) rotate(45deg);
+  width: 8px;
+}
+
+.header-utility-links-sp {
+  padding: 0 16px 32px 32px;
+}
+
+.header-utility-links-sp .header-utility-link:first-child {
+  margin-top: 16px;
+}
+
+.header-utility-links-sp .header-utility-link {
+  display: block;
+  font-size: 1.4rem;
+  margin-top: calc(16px - (((1.4rem * 1.85) - 1.4rem) / 2));
+  text-indent: -8px;
+}
+
+.header-utility-links-sp a {
+  color: #333333;
+  position: relative;
+  text-decoration: none;
+}
+
+.header-utility-links-sp a:visited, .header-utility-links-sp a:hover, .header-utility-links-sp a:active {
+  text-decoration: underline;
+}
+
+.header-utility-links-sp a::before {
+  -webkit-transform: translateY(80%) rotate(45deg);
+  border-right: 2px solid #33419e;
+  border-top: 2px solid #33419e;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  left: -16px;
+  position: absolute;
+  transform: translateY(80%) rotate(45deg);
+  width: 8px;
+}
+
+/* ============================================================================
+* 2.コンテンツエリア
+* ========================================================================= */
+/* ----------------------------------------------------------------------------
+* 2-1.メインビジュアルスライダー
+* ------------------------------------------------------------------------- */
+.str-mainvisual {
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.str-mainvisual > .inner {
+  -ms-flex-pack: justify;
+  -ms-flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto 47px auto;
+  max-width: 1072px;
+  padding: 0 16px;
+}
+
+@media screen and (max-width: 67.5em) {
+  .str-mainvisual > .inner {
+    height: 100%;
+  }
+}
+
+.str-mainvisual > .inner > .hdg-copytext {
+  -ms-flex-order: 0;
+  -webkit-box-ordinal-group: 1;
+  margin: 31px 0 0 0;
+  order: 0;
+  width: 50%;
+}
+
+@media screen and (max-width: 67.5em) {
+  .str-mainvisual > .inner > .hdg-copytext img {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 67.5em) {
+  .str-mainvisual > .inner > .hdg-copytext {
+    -ms-flex-order: 1;
+    -webkit-box-ordinal-group: 2;
+    margin: 16px auto 0 auto;
+    order: 1;
+    width: 100%;
+  }
+}
+
+.str-mainvisual > .inner > .mod-btn-wrap-01 {
+  -ms-flex-order: 2;
+  -webkit-box-ordinal-group: 3;
+  margin-left: 17px;
+  margin-top: -70px;
+  order: 2;
+}
+
+@media screen and (max-width: 67.5em) {
+  .str-mainvisual > .inner > .mod-btn-wrap-01 {
+    -ms-flex-order: 2;
+    -webkit-box-ordinal-group: 3;
+    display: block;
+    margin: 0 auto;
+    order: 2;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.str-mainvisual > .inner > .mv-block {
+  -ms-flex-order: 1;
+  -webkit-box-ordinal-group: 2;
+  margin: 78px 0 0 0;
+  order: 1;
+}
+
+.str-mainvisual > .inner > .mv-block img {
+  max-width: 90%;
+}
+
+@media screen and (max-width: 67.5em) {
+  .str-mainvisual > .inner > .mv-block img {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 67.5em) {
+  .str-mainvisual > .inner > .mv-block {
+    -ms-flex-order: 0;
+    -webkit-box-ordinal-group: 1;
+    display: block;
+    margin: 24px auto 0 auto;
+    order: 0;
+  }
+}
+
+/* メインビジュアル1枚目の画像 */
+._mv {
+  background-image: url(/img/index_bg_mv.png);
+}
+
+/* メインビジュアル2枚目の画像 */
+._mv-02 {
+  background-image: url(/img/index_bg_mv_02.png);
+}
+
+/* メインビジュアル3枚目の画像 */
+._mv-03 {
+  background-image: url(/img/index_bg_mv_03.png);
+}
+
+/* メインビジュアル4枚目の画像 */
+._mv-04 {
+  background-image: url(/img/index_bg_mv_04.png);
+}
+
+/* ----------------------------------------------------------------------------
+* 2-2.コンテンツ幅
+* ------------------------------------------------------------------------- */
+#str-content {
+  padding: 0 16px;
+}
+
+.slide {
+  margin: 0 -16px 0;
+}
+
+.top-campaign,
+.top-recommended,
+.top-attention {
+  margin: 0 -16px 0;
+  padding: 0 16px;
+}
+
+/* 各エリア内の幅 */
+.top-attention > .inner,
+.top-news > .inner,
+.footer-in-02 > .inner,
+.footer-in-03 > .inner {
+  margin: auto;
+  max-width: 1080px;
+}
+
+/* 各エリア内の幅 */
+.top-campaign > .inner,
+.top-recommended > .inner,
+.top-scene > .inner,
+.footer-related > .inner {
+  margin: auto;
+  max-width: 1104px;
+}
+
+/* ----------------------------------------------------------------------------
+* 2-3.キャンペーン情報一覧
+* ------------------------------------------------------------------------- */
+.top-campaign {
+  padding-bottom: 44px;
+  padding-top: 22px;
+}
+
+.top-campaign .hdg-campaign {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 30em) {
+  .top-campaign .hdg-campaign {
+    font-size: 2.4rem;
+  }
+}
+
+.mod-campaign-wrap {
+  margin-top: 24px;
+  text-align: center;
+}
+
+@media screen and (max-width: 67.5em) {
+  .mod-campaign-wrap {
+    font-size: 0;
+  }
+}
+
+.mod-campaign-wrap .mod-campaign {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 24px;
+  width: 252px;
+}
+
+@media screen and (max-width: 67.5em) {
+  .mod-campaign-wrap .mod-campaign {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 16px;
+    width: 48%;
+  }
+}
+
+.mod-campaign-wrap .mod-campaign .image-area img {
+  display: block;
+  height: auto;
+  margin: auto;
+  max-width: 100%;
+}
+
+.mod-campaign-wrap .mod-campaign .mod-text {
+  font-size: 1.7rem;
+  margin-top: 16px;
+}
+
+.mod-campaign-wrap .mod-campaign a {
+  color: #33419e;
+  text-align: left;
+  text-decoration: none;
+}
+
+.mod-campaign-wrap .mod-campaign a:visited, .mod-campaign-wrap .mod-campaign a:hover, .mod-campaign-wrap .mod-campaign a:active {
+  text-decoration: underline;
+}
+
+.mod-campaign-wrap .mod-campaign img {
+  width: 100%;
+}
+
+.tab-item {
+  -webkit-transition: all 0.2s ease;
+  background-color: #eeeeee;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.6rem;
+  margin: 0 auto;
+  padding: 8px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 280px;
+}
+
+@media screen and (max-width: 67.5em) {
+  .tab-item {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    padding: 16px 8px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .tab-item {
+    display: table-cell;
+    margin-bottom: 0;
+    padding: 8px;
+    vertical-align: middle;
+    width: 48%;
+  }
+}
+
+.tab-item:hover {
+  opacity: 0.75;
+}
+
+.tab-item02 {
+  -webkit-transition: all 0.2s ease;
+  background-color: #eeeeee;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.6rem;
+  margin: 0 auto;
+  padding: 8px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 280px;
+}
+
+@media screen and (max-width: 67.5em) {
+  .tab-item02 {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    padding: 16px 8px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .tab-item02 {
+    display: table-cell;
+    margin-bottom: 0;
+    padding: 8px;
+    vertical-align: middle;
+    width: 33.333%;
+  }
+}
+
+.tab-item02:hover {
+  opacity: 0.75;
+}
+
+.tab-content {
+  clear: both;
+  display: none;
+  overflow: hidden;
+}
+
+input[name="tab-item"],
+input[name="tab-item02"] {
+  display: none;
+}
+
+#new:checked ~ #content01,
+#member:checked ~ #content02,
+#all:checked ~ #content03,
+#release:checked ~ #content04,
+#safety:checked ~ #content05 {
+  -ms-flex-pack: justify;
+  -ms-flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 67.5em) {
+  #new:checked ~ #content01,
+  #member:checked ~ #content02,
+  #all:checked ~ #content03,
+  #release:checked ~ #content04,
+  #safety:checked ~ #content05 {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+.tabs input:checked + .tab-item,
+.tabs input:checked + .tab-item02 {
+  background-color: #bfc7fc;
+  color: #333333;
+}
+
+/* ----------------------------------------------------------------------------
+* 2-4.クレジットカード一覧
+* ------------------------------------------------------------------------- */
+.top-recommended {
+  background: #eceeff;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.top-recommended .hdg-recommended {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 30em) {
+  .top-recommended .hdg-recommended {
+    font-size: 2.4rem;
+  }
+}
+
+.top-recommended .image-area img {
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+.top-recommended .mod-text {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.mod-recommended-wrap {
+  -ms-flex-pack: justify;
+  -ms-flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 67.5em) {
+  .mod-recommended-wrap {
+    overflow: auto;
+  }
+}
+
+.mod-recommended-wrap .mod-recommended {
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 252px;
+}
+
+.mod-recommended-wrap .mod-recommended a {
+  color: #33419e;
+  text-decoration: none;
+}
+
+.mod-recommended-wrap .mod-recommended a:visited, .mod-recommended-wrap .mod-recommended a:hover, .mod-recommended-wrap .mod-recommended a:active {
+  text-decoration: underline;
+}
+
+/* ----------------------------------------------------------------------------
+* 2-5.利用シーン別リンク
+* ------------------------------------------------------------------------- */
+.top-scene {
+  padding-bottom: 32px;
+  padding-top: 42px;
+}
+
+@media screen and (max-width: 67.5em) {
+  .top-scene {
+    padding-top: 0;
+  }
+}
+
+.top-scene .image-area img {
+  display: block;
+  height: auto;
+  margin: auto;
+  max-width: 80%;
+  width: 220px;
+}
+
+@media screen and (max-width: 67.5em) {
+  .top-scene .image-area img {
+    border: solid 5px #eceeff;
+    border-radius: 50%;
+    width: 110px;
+  }
+}
+
+.top-scene .mod-text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.mod-scene-wrap {
+  -ms-flex-pack: justify;
+  -ms-flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 67.5em) {
+  .mod-scene-wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+.mod-scene-wrap .mod-scene {
+  margin: 0 12px;
+  width: 252px;
+}
+
+@media screen and (max-width: 67.5em) {
+  .mod-scene-wrap .mod-scene {
+    margin: 24px 0 0 0;
+    width: 100%;
+  }
+}
+
+.mod-scene-wrap .mod-scene a {
+  color: #33419e;
+  font-size: 2.4rem;
+  text-decoration: none;
+}
+
+.mod-scene-wrap .mod-scene a:visited, .mod-scene-wrap .mod-scene a:hover, .mod-scene-wrap .mod-scene a:active {
+  text-decoration: underline;
+}
+
+.mod-scene-wrap .mod-scene .scene-list {
+  display: table;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.mod-scene-wrap .mod-scene .scene-list > li {
+  border-top: 1px dotted #33419e;
+  line-height: 2.8;
+}
+
+.mod-scene-wrap .mod-scene .scene-list > li:last-child {
+  border-bottom: 1px dotted #33419e;
+}
+
+.mod-scene-wrap .mod-scene .scene-list > li a {
+  color: #33419e;
+  display: block;
+  font-size: 1.7rem;
+  padding-left: 20px;
+  position: relative;
+  text-decoration: none;
+}
+
+.mod-scene-wrap .mod-scene .scene-list > li a:hover, .mod-scene-wrap .mod-scene .scene-list > li a:focus {
+  background-color: #f3f3f3;
+  color: #33419e;
+}
+
+.mod-scene-wrap .mod-scene .scene-list > li a::before {
+  -webkit-transform: translateY(-50%) rotate(45deg);
+  border-right: 2px solid #33419e;
+  border-top: 2px solid #33419e;
+  content: "";
+  display: block;
+  height: 8px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  width: 8px;
+}
+
+/* ----------------------------------------------------------------------------
+* 2-6.注意項目一覧
+* ------------------------------------------------------------------------- */
+.top-attention {
+  background-color: #f3f3f3;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.top-attention .attention-list {
+  display: table;
+  width: 100%;
+}
+
+.top-attention .attention-list > li {
+  background: url(/common/img/icon_attention.png) left 0px top 50% no-repeat;
+  background-size: 18px auto;
+  line-height: 2;
+  padding-left: 32px;
+}
+
+@media screen and (max-width: 30em) {
+  .top-attention .attention-list > li {
+    background-position: left 0px top 10px;
+  }
+}
+
+.top-attention .attention-list a {
+  color: #d72060;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+.top-attention .attention-list a:hover, .top-attention .attention-list a:focus {
+  color: #d72060;
+  text-decoration: none;
+}
+
+/* ----------------------------------------------------------------------------
+* 2-7.お知らせニュース一覧
+* ------------------------------------------------------------------------- */
+.top-news {
+  padding-bottom: 64px;
+  padding-top: 40px;
+}
+
+.top-news .hdg-news {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 30em) {
+  .top-news .hdg-news {
+    font-size: 2.4rem;
+  }
+}
+
+.mod-news-wrap {
+  margin-top: 24px;
+  text-align: center;
+}
+
+@media screen and (max-width: 67.5em) {
+  .mod-news-wrap {
+    font-size: 0;
+  }
+}
+
+.mod-news-wrap .info-list {
+  display: table;
+  font-size: 1.7rem;
+  margin-top: 16px;
+  text-align: left;
+  width: 100%;
+}
+
+@media screen and (max-width: 67.5em) {
+  .mod-news-wrap .info-list {
+    font-size: 1.6rem;
+  }
+}
+
+.mod-news-wrap .info-list > li {
+  border-top: 1px dotted #33419e;
+}
+
+@media screen and (max-width: 30em) {
+  .mod-news-wrap .info-list > li {
+    padding: 16px 0;
+  }
+}
+
+.mod-news-wrap .info-list > li:last-child {
+  border-bottom: 1px dotted #33419e;
+}
+
+.mod-news-wrap .info-list .info-date {
+  display: table-cell;
+  padding: 15px 0 11px 30px;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 30em) {
+  .mod-news-wrap .info-list .info-date {
+    display: block;
+    padding: 0;
+  }
+}
+
+.mod-news-wrap .info-list .info-detail {
+  display: table-cell;
+  padding: 15px 16px 11px 24px;
+  vertical-align: top;
+}
+
+@media screen and (max-width: 30em) {
+  .mod-news-wrap .info-list .info-detail {
+    display: block;
+    margin-top: 8px;
+    padding: 0;
+  }
+}
+
+.mod-news-wrap .info-list .info-detail a {
+  color: #33419e;
+  text-decoration: none;
+}
+
+.mod-news-wrap .info-list .info-detail a:hover, .mod-news-wrap .info-list .info-detail a:focus {
+  color: #33419e;
+  text-decoration: underline;
+}
+
+/* ============================================================================
+* 3.フッターエリア
+* ========================================================================= */
+/* ----------------------------------------------------------------------------
+* 3-1.ページ上部へ戻るボタン
+* ------------------------------------------------------------------------- */
+.footer-top .totop {
+  -webkit-transition: 0.5s;
+  background: #33419e;
+  border-radius: 50%;
+  bottom: 16px;
+  bottom: 130px;
+  color: transparent;
+  height: 56px;
+  position: fixed;
+  right: 16px;
+  text-align: center;
+  transition: 0.5s;
+  width: 56px;
+  z-index: 100;
+}
+
+.footer-top .totop::before {
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+  border-right: 4px solid #ffffff;
+  border-top: 4px solid #ffffff;
+  bottom: 60px;
+  content: "";
+  display: block;
+  height: 14px;
+  left: 50%;
+  position: absolute;
+  top: 55%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  width: 14px;
+}
+
+.footer-top .totop:focus, .footer-top .totop:hover {
+  opacity: 0.4;
+}
+
+/* ----------------------------------------------------------------------------
+* 3-2.フッターサイトマップ
+* ------------------------------------------------------------------------- */
+.footer-in-02 {
+  background: #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+  border-top: 1px solid #f3f3f3;
+  padding: 40px 16px;
+}
+
+@media screen and (max-width: 30em) {
+  .footer-in-02 {
+    display: none;
+  }
+}
+
+.footer-in-02 .footer-sitemap-wrap {
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-in-02 .footer-sitemap {
+  width: 24%;
+}
+
+.footer-in-02 .footer-sitemap dl {
+  margin-top: 16px;
+}
+
+.footer-in-02 .footer-sitemap dl dd {
+  color: #666666;
+  font-size: 1.7rem;
+  line-height: 1.846153;
+  margin-top: 8px;
+}
+
+.footer-in-02 .footer-sitemap .hdg-footer-sitemap {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.footer-sitemap-links {
+  margin-top: 16px;
+}
+
+.footer-sitemap-links > li {
+  margin: 8px 0 0 0;
+}
+
+.footer-sitemap-links > li a {
+  color: #333333;
+  position: relative;
+  text-decoration: none;
+}
+
+.footer-sitemap-links > li a:visited, .footer-sitemap-links > li a:hover, .footer-sitemap-links > li a:active {
+  text-decoration: underline;
+}
+
+/* ----------------------------------------------------------------------------
+* 3-3.フッターサブナビゲーション
+* ------------------------------------------------------------------------- */
+.footer-in-03 {
+  background: #20277d;
+  color: #f3f3f3;
+  font-size: 1.6rem;
+  padding: 26px 16px 40px;
+  text-align: center;
+}
+
+.footer-in-03 .footer-utility-links {
+  -ms-flex-flow: wrap;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 30em) {
+  .footer-in-03 .footer-utility-links {
+    display: block;
+    text-align: left;
+  }
+}
+
+.footer-in-03 .footer-utility-links > li:not(:last-child) {
+  border-right: 1px solid #f3f3f3;
+  margin-right: 12px;
+  padding-right: 12px;
+}
+
+@media screen and (max-width: 30em) {
+  .footer-in-03 .footer-utility-links > li:not(:last-child) {
+    border-right: none;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .footer-in-03 .footer-utility-links > li {
+    margin: 8px 0 8px 16px;
+    padding: 0;
+  }
+}
+
+.footer-in-03 .footer-utility-links > li a {
+  color: #f3f3f3;
+  position: relative;
+  text-decoration: none;
+}
+
+.footer-in-03 .footer-utility-links > li a:visited, .footer-in-03 .footer-utility-links > li a:hover, .footer-in-03 .footer-utility-links > li a:active {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 30em) {
+  .footer-in-03 .footer-utility-links > li a::before {
+    -webkit-transform: translateY(-50%) rotate(45deg);
+    border-right: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    content: "";
+    display: block;
+    height: 8px;
+    left: -16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    width: 8px;
+  }
+}
+
+.footer-copyright {
+  margin-top: 16px;
+  text-align: center;
+}
+
+/* ============================================================================
+* 4.ボタンモジュール
+* ========================================================================= */
+.mod-btn-01 {
+  -webkit-backface-visibility: hidden;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.63);
+  -webkit-transition: all 0.3s ease;
+  backface-visibility: hidden;
+  background: #20277d;
+  border: 1px solid #20277d;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.63);
+  color: #ffffff;
+  display: inline-block;
+  font-size: 2.2rem;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+  margin: 0 auto;
+  padding: 20px 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: 100%;
+  width: 375px;
+}
+
+@media screen and (max-width: 30em) {
+  .mod-btn-01 {
+    font-size: 1.6rem;
+    width: 100%;
+  }
+}
+
+.mod-btn-01:visited, .mod-btn-01:hover, .mod-btn-01:active {
+  opacity: 0.8;
+}
+
+.mod-btn-wrap-02 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+@media screen and (max-width: 30em) {
+  .mod-btn-wrap-02 {
+    margin-top: 24px;
+  }
+}
+
+.mod-btn-02 {
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: all 0.3s ease;
+  backface-visibility: hidden;
+  background-color: #ffffff;
+  border: 1px solid #33419e;
+  border-radius: 8px;
+  color: #33419e;
+  display: inline-block;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0 auto;
+  padding: 16px 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: 100%;
+  width: 240px;
+}
+
+.mod-btn-02:visited, .mod-btn-02:hover, .mod-btn-02:active {
+  opacity: 0.5;
+}
+
+/* ----------------------------------------------------------------------------
+* 【スライダープラグイン】slick
+* ------------------------------------------------------------------------- */
+.slick-slider {
+  -moz-user-select: none;
+  -ms-touch-action: pan-y;
+  -ms-user-select: none;
+  -webkit-box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  touch-action: pan-y;
+  user-select: none;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 30px;
+}
+
+.slick-dots {
+  bottom: -33px;
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.slick-dots li {
+  cursor: pointer;
+  display: inline-block;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  position: relative;
+  width: 20px;
+}
+
+.slick-dots li button {
+  background: transparent;
+  border: 0;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  height: 20px;
+  line-height: 0;
+  outline: none;
+  padding: 5px;
+  width: 20px;
+}
+
+.slick-dots li button:hover, .slick-dots li button:focus {
+  outline: none;
+}
+
+.slick-dots li button:hover:before, .slick-dots li button:focus:before {
+  opacity: 1;
+}
+
+.slick-dots li button:before {
+  color: #d72060;
+  content: "•";
+  font-family: "slick";
+  font-size: 32px;
+  height: 20px;
+  left: 0;
+  line-height: 20px;
+  opacity: 0.25;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 20px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #d72060;
+  opacity: 0.75;
+}
+
+.slick-list {
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+
+.slick-list:focus {
+  outline: none;
+}
+
+.slick-list.dragging {
+  cursor: pointer;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  display: block;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 0;
+}
+
+.slick-track:before,
+.slick-track:after {
+  content: "";
+  display: table;
+}
+
+.slick-track:after {
+  clear: both;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+
+.slick-slide img {
+  display: block;
+}
+
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+  border: 1px solid transparent;
+  display: block;
+  height: auto;
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}
