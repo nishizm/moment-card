@@ -1550,7 +1550,7 @@ input[name="tab-item02"] {
 }
 
 .top-attention .attention-list > li {
-  background: url(/common/img/icon_attention.png) left 0px top 50% no-repeat;
+  background: url(/moment-card/common/img/icon_attention.png) left 0px top 50% no-repeat;
   background-size: 18px auto;
   line-height: 2;
   padding-left: 32px;
