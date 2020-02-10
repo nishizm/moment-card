@@ -1110,22 +1110,22 @@ li {
 
 /* メインビジュアル1枚目の画像 */
 ._mv {
-  background-image: url(/img/index_bg_mv.png);
+  background-image: url(/moment-card/img/index_bg_mv.png);
 }
 
 /* メインビジュアル2枚目の画像 */
 ._mv-02 {
-  background-image: url(/img/index_bg_mv_02.png);
+  background-image: url(/moment-card/img/index_bg_mv_02.png);
 }
 
 /* メインビジュアル3枚目の画像 */
 ._mv-03 {
-  background-image: url(/img/index_bg_mv_03.png);
+  background-image: url(/moment-card/img/index_bg_mv_03.png);
 }
 
 /* メインビジュアル4枚目の画像 */
 ._mv-04 {
-  background-image: url(/img/index_bg_mv_04.png);
+  background-image: url(/moment-card/img/index_bg_mv_04.png);
 }
 
 /* ----------------------------------------------------------------------------
